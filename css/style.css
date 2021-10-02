@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 900px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    position: relative;
+}
+
+#banner {
+    background-image: url(../imagini/bannerAgenda.jpeg);
+    height: 150px;
+}
+
+#meniu {
+    float: left;
+    width: 20%;
+    margin-top: 10px;
+}
+
+#continut {
+    float: left;
+    width: 75%;
+    margin: 10px;
+}
+
+.footer {
+    float: left;
+    width: 100%;
+    background-color: rgb(29, 62, 89);
+    color: white;
+    text-align: center;
+    font-weight: 200;
+    font-size: 0.75em;
+    height: 50px;
+}
+
+#meniu li {
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    border: 0.5px solid #cacccf;
+}
+
+#meniu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 100%;  
+}
+
+#meniu li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#meniu li a:hover {
+    background-color: rgb(29, 62, 89);
+    color: white;
+    border-radius: 15px;
+}
+
+.welcome-text {
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+}
+
+#register-errors {
+    list-style-type: none;
+    color: red;
+}
+
+#error-list-item {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#update-profile-picture-only {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #cacccf;
+    text-align: center;
+}
+
+#update-credentials-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #cacccf;
+}
+
+#form-add-reservation {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.regular-form {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.main-text {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5f6368;
+}
+
+.main-text.p-5.mb-4.bg-light.rounded-3 {
+    width: 650px;
+    margin-left: 30px;
+}
+
+.btn-primary {
+    background-color: rgb(29, 62, 89);
+    border-color: rgb(29, 62, 89);
+}
+
+.btn-primary:hover, 
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:visited{
+    background-color: rgb(50, 114, 166);
+    border-color: rgb(50, 114, 166);
+    background-image: none !important;
+}
+
+#carouselImport {
+    width: 650px;
+    margin-left: 30px;
+}
+
+td {
+    padding: 0 15px;
+}
+
+#welcome-text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#welcome-text-below {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5f6368;
+    margin-top: 16px;
+}
+
+#welcome-text-form {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+#security-image {
+    width: 90px;
+    height: 90px;
+}  
+
+.add-activity{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.wrapper {
+    padding-bottom: 40px;
+}
+
+.divider {
+    position: relative;
+    margin-top: 15px;
+    height: 1px;
+}
+
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+}
+
